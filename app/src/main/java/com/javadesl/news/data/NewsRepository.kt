@@ -9,5 +9,5 @@ class NewsRepository @Inject constructor
     (
     private val newsApi: NewsApi
 ) {
-    suspend fun getNews() = newsApi.getNews("irinn")
+    suspend fun getNews(action:String) = newsApi.getNews(action)
 }

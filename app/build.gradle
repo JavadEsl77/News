@@ -91,9 +91,6 @@ dependencies {
     implementation "androidx.lifecycle:lifecycle-runtime-ktx:$lifecycle_version"
     implementation "androidx.lifecycle:lifecycle-viewmodel-compose:$lifecycle_version"
 
-    // Coil Image Loading
-    implementation "io.coil-kt:coil-compose:2.2.0"
-
     // Paging
     implementation "androidx.paging:paging-runtime:3.1.1"
     implementation "androidx.paging:paging-compose:1.0.0-alpha16"
@@ -104,6 +101,9 @@ dependencies {
 
     //multidex
     implementation "androidx.multidex:multidex:2.0.1"
+
+    //Coil Image Loading
+    implementation 'io.coil-kt:coil-compose:2.2.2'
 
 
 }
